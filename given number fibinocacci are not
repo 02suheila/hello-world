@@ -1,0 +1,22 @@
+import java.util.*;
+//display a given number fibonnacci are not
+public class Fibonacci_series
+{
+public static void main(string[] arg)
+{
+Scanner sc= new Scanner(system.in);
+System.out.println("enter number:");
+int n= sc.nextInt();
+int t1=0;t2=1,sum=0;
+while(sum<n)
+{
+sum=t1+t2;
+t1= t2;
+t2=sum;
+}
+if(sum==n)
+system.out.print("fibonacci number")
+else
+system.out.print("not a fibonacci number");
+}
+}
