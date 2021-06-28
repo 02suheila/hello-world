@@ -1,0 +1,11 @@
+public class Areaofcircle
+{
+public static void main(String[] args)
+{
+Scanner sc= new Scanner(system.in);
+System.out.print("enter the radius:");
+double radius = sc.nextDouble();
+double area = Math.PI *radius*radius;
+System.out.println("the area o circle is:" +area);
+}
+}
