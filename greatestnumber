@@ -1,0 +1,48 @@
+[06-07 17:17] 20A91A04B2
+    
+package program_examples;
+import java.util.Scanner;
+public class replace_greatestno {​​​​​​​
+    public static void main(String[] args) {​​​​​​​
+        // TODO Auto-generated method stub
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER SIZE:");
+        int n = sc.nextInt();
+        
+        int elements [] = new int[n];
+        System.out.println("enter elements");
+        for(int i = 0;i<n; i++)
+        {​​​​​​​
+            elements[i] = sc.nextInt();
+        }​​​​​​​
+        for(int i =0; i<(n-1); i++)
+        {​​​​​​​
+            int max =0;
+            for(int j=i+1 ;j<n; j++)
+            {​​​​​​​
+                if(elements[j]>max)
+                {​​​​​​​
+                    max = elements[j];
+                }​​​​​​​
+                elements[i] = max;
+            }​​​​​​​
+            elements[n-1] = -1;
+            for(int i=0; i<n; i++)
+            {​​​​​​​
+                System.out.print(elements[i] + " ");
+            }​​​​​​​
+            
+        }​​​​​​​
+
+
+    }​​​​​​​
+
+
+}​​​​​​​
+ 
+
+
+
+
+​[06-07 17:18] 20A91A04B2
+    error chpistundhii
