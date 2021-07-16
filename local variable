@@ -1,0 +1,16 @@
+#include <stdio.h>
+void fun();
+int main()
+{
+   int x= 10;
+   printf("%d",x);
+   fun();
+   
+    return 0;
+}
+void fun()
+
+{
+    int y=20;
+    printf("\n%d",y);
+}
