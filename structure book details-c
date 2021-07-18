@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include<string.h>
+struct book
+{
+    char name[20];
+    char author[20];
+    int pages;
+    float cost;
+};
+int main()
+{
+    struct book b;
+    strcpy(b.name,"c programming");
+    strcpy(b.author,"reema tareja");
+    b.pages =135;
+    b.cost = 467.98;
+    printf("Boook detals:\n");
+    printf("Title =%s \n",b.name);
+    printf("Author = %s \n",b.author);
+    printf("Pages  %d\n",b.pages);
+    printf("Cost = %f\n",b.cost);
+    return 0;
+}
