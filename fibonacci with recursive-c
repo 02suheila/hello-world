@@ -1,0 +1,27 @@
+#include<stdio.h>
+int fibnocacci(int n)
+{
+    if(n==0)
+    {
+        return 0;
+    }
+    else if(n==1)
+    {
+        return 1;
+    }
+    else{
+        return fibnocacci(n-1)+fibnocacci(n-2);
+    }
+}
+int main()
+{
+    int n,i;
+    printf("enter a number");
+    scanf("%d",&n);
+    printf("fibonacci of %d:",n);
+    for(i=0;i<n;i++)
+    {
+        printf("%d",fibnocacci(i));
+    }
+    return 0;
+}
