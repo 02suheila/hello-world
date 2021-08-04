@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a=6;
+    int b=12;
+    printf("%d\n",a&b);
+    printf("%d\n",a/b);
+    printf("%d\n",a^b);
+    printf("%d\n",a>>b);
+    printf("%d\n",b<<2);
+    printf("%d\n",~a);
+    
+    return 0;
+}
+
+
