@@ -1,0 +1,19 @@
+length
+---------
+
+#include <stdio.h>
+#include<stdio.h>
+int main() {
+    char a[20] ="program";
+    char b[20]= {'p','r','o','g','r','a','m'};
+    char c[20];
+    printf("enter a string3");
+    puts(c);
+    
+    printf("length of string a=%d \n",strlen(a));
+    printf("length of string b=%d \n",strlen(b));
+    printf("length of string c=%d \n",strlen(c));
+    
+    
+    return 0;
+}
