@@ -1,0 +1,18 @@
+concate
+-----------
+
+#include <stdio.h>
+#include<stdio.h>
+int main() {
+    char str1[20] ="aditya";
+    char str2[20] = "college";
+    char str3[20] = "\n c";
+    char str4[20] = " programming";
+    strcat(str1,str2);
+    puts(str1);
+    strcat(str3,str4);
+    puts(str3);
+
+    return 0;
+}
+
