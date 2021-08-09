@@ -1,0 +1,15 @@
+#include<stdio.h>
+struct date
+{
+    unsigned int dd:5;
+    unsigned int mm:10;
+    int yyyy;
+}d;
+int main()
+{
+    d.dd=10;
+    d.mm=12;
+    d.yyyy=1964;
+    printf("%d-%d-%d",d.dd,d.mm,d.yyyy);
+    return 0;
+}
