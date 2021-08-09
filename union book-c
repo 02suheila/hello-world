@@ -1,0 +1,14 @@
+#include <stdio.h>
+union book
+{
+    int page;
+    float price;
+}u;
+
+int main() {
+    u.page=145;
+    printf("%d",u.page);
+    u.price=12.5;
+    printf("\n %f",u.price);
+    return 0;
+}
