@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+   char s[30];
+   int d=0,i=0,u=0,l=0;
+   printf("enter a s");
+   gets(s);
+   while(s[i]='\0')
+   {
+       if(isdigit(s[i])) {d++;}
+       if(islower(s[i])) {l++;}
+       if(isupper(s[i])  {u++}
+       i++;
+   }
+    printf("\n no. of digit is %d",d);
+    printf("\n no. of lower case is %d",l);
+    printf("\n no. of upper case is %d",u);
+    
+    return 0;
+}
