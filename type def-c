@@ -1,0 +1,9 @@
+#include<stdio.h>
+//typedef------
+int main()
+{
+   int I;
+   I a=10;
+   printf("%d",a);
+   return 0;
+}
