@@ -1,0 +1,24 @@
+class add_1{
+    void add1(inta,intb)
+    {
+        system.out.println("add is"+(a+b));
+    }}
+    class sub_1
+    {
+        void sub1(intx,inty)
+        {
+            system.out.println("sub is"+(x-y));
+        }
+    }
+    
+
+
+public class file1 {
+    public static void main(String[] args) {
+        System.out.println("main class"); 
+        add a=new add();
+        a.add(10,20);
+        sub1 s =new sub();
+        s.sub(33,11);
+    }
+}
