@@ -1,0 +1,12 @@
+class Sample {
+    Sample()
+    {
+        System.out.println("this is constructor");
+    }
+    }
+    class constructor example{
+        public static void main(string args[])
+        {
+            Sample obj= new Sample();
+        }
+    }
