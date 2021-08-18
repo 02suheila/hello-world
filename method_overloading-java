@@ -1,0 +1,21 @@
+class Method_Overloading{
+    public void methodone()
+    {
+        System.out.println("no arguments");
+    }
+    public void methodone(int a,int b)
+    {
+        System.out.println(a+b);
+    }
+    public void methodone(int x)
+    {
+        System.out.println(x);
+    }
+    public static void main(String args[])
+    {
+        Method_Overloading m=new Method_Overloading();
+        m.methodone();
+        m.methodone(10,20);
+        m.methodone(5);
+    }
+}
