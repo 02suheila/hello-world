@@ -1,0 +1,39 @@
+package oops;
+class Student2
+{
+    int rn;
+    String name;
+    Student2(int rn,String name)
+    {
+        this.rn=rn;
+        this.name=name;
+    }
+    void display1()
+    {
+        System.out.println("rollno ="+rn);
+        System.out.println("sname ="+name);
+    }
+}
+class marks extends Student2{
+    int m1,m2;
+    marks(int rn,String name,int m1,int m2)
+    {
+        super(rn,name);
+        this.m1=m1;
+        this.m2=m2;
+        
+    }
+    void display2()
+    {
+        System.out.println("marks1="+m1);
+        System.out.println("marks2 ="+m2);
+    }
+}
+     public class inheitance{
+    public static void main(String args[])
+    {
+        marks obj =new marks(11,"asd",67,87);
+        obj.display1();
+        obj.display2();
+    }
+}
