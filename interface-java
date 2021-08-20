@@ -1,0 +1,25 @@
+interface A{
+    void display1();
+}
+interface B {
+    void display2();
+}
+class C implements A,B{
+    public void display1()
+    {
+        System.out.println("interface a");
+    }
+    public void display2()
+    {
+        System.out.println("interface b");
+    }
+}
+  class interface_example
+{
+ public static void main(String[] args)
+ {
+ C obj=new C();
+ obj.display1();
+ obj.display2();
+}
+}
