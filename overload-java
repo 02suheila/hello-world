@@ -1,0 +1,28 @@
+class overload {
+    void add(int a, int b)
+    {
+        System.out.println("value 1="+(a+b));
+    }
+    void add(String x,String y)
+    {
+        System.out.println("value 2="+(x+y));
+    }
+}
+ public class main 
+{
+
+    public static void main(String args[])
+    {
+        overload r=new overload();
+        r.add(10,20);
+        r.add("roohi","azziza");
+    }class overload {
+    void add(int a, int b)
+    {
+        System.out.println("value 1="+(a+b));
+    }
+    void add(String x,String y)
+    {
+        System.out.println("value 2="+(x+y));
+    }
+}
