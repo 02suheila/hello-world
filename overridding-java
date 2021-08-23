@@ -1,0 +1,22 @@
+package oops;
+class parent
+{
+    public void show()
+    {
+        System.out.println("parent class");
+    }
+}
+class child extends parent
+{
+    public void show()
+    {
+        System.out.println("over riding parent" );
+    }
+}
+         class overridding{
+public static void main(String args[])
+{
+    child t=new child();
+    t.show();
+}
+}
